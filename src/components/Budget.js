@@ -32,7 +32,8 @@ const Budget = () => {
     return (
         <div>
             <div className='alert alert-secondary'>
-                <span>Budget: £{budget}</span>
+                <span>Budget: </span> {/* Add a span with the currency prefix */}
+                <span>$</span> {/* Currency prefix */}
                 <input
                     type="number"
                     step="10"
